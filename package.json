@@ -4,6 +4,7 @@
 	},
 	"author": "Maciej Walaszczyk",
 	"dependencies": {
+		"@emotion/core": "^10.0.6",
 		"@emotion/styled": "^10.0.6",
 		"framer": "^0.10.5",
 		"react": "^16.7.0",

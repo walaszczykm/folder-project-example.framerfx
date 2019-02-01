@@ -1,19 +1,14 @@
+/* @jsx jsx */
 import * as React from "react";
 import { PropertyControls, ControlType } from "framer";
 import posed from 'react-pose'
+import { css, jsx } from '@emotion/core'
 
 const ButtonElement = posed.div({
     hoverable: true,
     init: { scale: 1 },
     hover: { scale: 1.1 }
 })
-
-const styles: React.CSSProperties = {
-    borderRadius: '5px',
-    color: 'white',
-    backgroundColor: 'rgb(66, 127, 225)',
-    padding: '12px'
-}
 
 type Props = {
     text: string;
@@ -29,6 +24,17 @@ export class Button extends React.Component<Props> {
     }
 
     render() {
-    return <ButtonElement style={styles}>{this.props.text}</ButtonElement>
+    return (
+        <ButtonElement
+            css={css`
+                color: white;
+                border-radius: 4px;
+                background-color: royalblue;
+                padding: 12px;
+            `}
+        >
+            {this.props.text}
+        </ButtonElement>
+    )
     }
 }
