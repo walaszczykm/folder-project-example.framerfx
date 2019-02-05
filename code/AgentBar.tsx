@@ -13,26 +13,29 @@ import {
 type Props = {
   title: string;
   subtitle: string;
+  imgUrl: string;
 };
 
 @withTheme()
 export class AgentBar extends React.Component<Props> {
   static defaultProps = {
     title: "John Snow",
-    subtitle: "Support hero"
+    subtitle: "Support hero",
+    imgUrl: "https://livechat.s3.amazonaws.com/default/avatars/male_8.jpg"
   };
 
   static propertyControls: PropertyControls = {
     title: { type: ControlType.String, title: "Title" },
-    subtitle: { type: ControlType.String, title: "Subtitle" }
+    subtitle: { type: ControlType.String, title: "Subtitle" },
+    imgUrl: { type: ControlType.String, title: "Image URL" }
   };
 
   render() {
-    const { title, subtitle } = this.props;
+    const { title, subtitle, imgUrl: imgUrl } = this.props;
 
     return (
       <UIAgentBar>
-        <Avatar imgUrl="https://livechat.s3.amazonaws.com/default/avatars/male_8.jpg" />
+        <Avatar imgUrl={imgUrl} />
         <Column>
           <Title>{title}</Title>
           <Subtitle>{subtitle}</Subtitle>
