@@ -242,6 +242,64 @@
             "visible" : true,
             "width" : 200,
             "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.14808917197452229,
+            "centerAnchorY" : 0.38548387096774195,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/SVGTest.tsx_SVGTest",
+            "codeComponentProps" : {
+              "color" : "hsl(229, 82%, 40%)"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 78,
+            "heightType" : 0,
+            "id" : "vUrM6NbTA",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 50,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "cnA3oYyWB",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 200,
+            "visible" : true,
+            "width" : 86,
+            "widthType" : 0
           }
         ],
         "clip" : true,
